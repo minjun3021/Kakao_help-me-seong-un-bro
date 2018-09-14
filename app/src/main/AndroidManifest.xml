@@ -3,7 +3,11 @@
     package="com.example.kmj.kakaologin_test">
 
     <uses-permission android:name="android.permission.INTERNET" />
+
+    <!--TODO application 태그 name값 추가해 줘야함-->
+
     <application
+        android:name=".GlobalApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
